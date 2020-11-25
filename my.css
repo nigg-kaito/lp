@@ -1,0 +1,670 @@
+body{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,
+"ＭＳ Ｐゴシック","MS PGothic","MS Gothic","ＭＳ ゴシック","Helvetica Neue",Helvetica,Arial,sans-serif;
+width:auto;
+margin: 0;
+font-size: 19px;
+background-color:rgb(30,40,30);
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+.header_top{
+    background-image: url("https://un-gluten.com/wp-content/uploads/2018/07/glutenfree-breakfast01-799x460.jpg");
+    height: 820px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+  position: relative;
+
+}
+.header_top::before{
+  content:" ";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  filter: blur(7px) opacity(90%);
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+.header_name{
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 200px;
+}
+.header_name h1{
+  color:#fff;
+  text-align: center;
+  margin: 0;
+  font-family: "游明朝体","YuMincho";
+  font-size: 4.5em;
+  line-height: 100px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.header_name h1::after{
+  content: " ";
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right: 0;
+
+}
+.header_name p{
+  color:#fff;
+  text-align: center;
+  margin: 0;
+  font-size: .9rem;
+  font-family: "游明朝体","YuMincho";
+  position: relative;
+  filter: opacity(100%);
+  opacity: 1;
+}
+.header_name p::after{
+  content: " ";
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right: 0;
+}
+section.sct{
+  background-image: url("https://d19znk50zlvx7p.cloudfront.net/note/wp-content/uploads/2018/09/22120331/6057_SEO-718x449.jpg");
+  height: 823px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+}
+section.sct::before{
+  content: " ";
+  top:0;
+  left:0;
+  right: 0;
+  bottom:0;
+  position: absolute;
+  background-color:rgb(30,40,30);
+  filter: blur(100px) opacity(90%);
+}
+.sct_top{
+  padding-top: 170px;
+}
+.sct_top h2{
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  font-size: 3.5rem;
+  filter: opacity(100%);
+  opacity: 1;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.sct_top h2::after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.aboutTxt{
+  filter: opacity(100%);
+  opacity: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: .9rem;
+    line-height: 2.5;
+    text-align: center;
+    color: white;
+    position: relative;
+      font-family: "游明朝体","YuMincho";
+}
+.aboutTxt::after{
+  content: " ";
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+main{
+background-color:  #222828;
+}
+.sct_second{
+  margin: auto;
+  width: 1200px;
+    margin-left: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.sct_head{
+  margin-top: -20px;
+    padding-left: 60px;
+    width: 320px;
+  display: inline-block;
+}
+.sct_h2{
+  font-size: 3em;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+.sec_lead {
+    font-size: .8rem;
+    color: white;
+    font-family: "游明朝体","YuMincho";
+}
+.content{
+  position: relative;
+}
+.caseList>li:first-child {
+    margin-top: 210px;
+}
+.caseList_img img {
+    height: 320px;
+    width: 520px;
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+a:link{
+  text-decoration: none;
+  color: white;
+}
+  ul{
+  padding-left: 0;
+  list-style: none;
+}
+p.card_ttl{
+  display: inline-block;
+    font-family: "游明朝体","YuMincho";
+    font-size: 1rem;
+}
+.caseList>li {
+    width: calc((100% - 120px) / 2);
+}
+.caseList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.caseBtn {
+  width: 360px;
+    margin-left: 150px;
+}
+.caseBtn {
+  position: absolute;
+bottom: 50px;
+left: 43%;
+}
+.artisians{
+  height: 500px;
+}
+.contInner {
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+  }
+.btn {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 12px;
+    border: 1px solid #fff;
+    font-family: "游明朝体","YuMincho";
+    font-size: 1.2rem;
+}
+.contInner {
+    padding-right: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+.artisians .sec_head {
+    margin-top: 160px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 160px;
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+}
+.artisiansList {
+    margin-right: 0;
+}
+.artisiansList>li:first-child {
+  display: block;
+    margin-top: 120px;
+}
+.artisiansList>li:nth-child(2) {
+  display: block;
+    margin-top: 60px;
+}
+.artisiansList>li:nth-child(3){
+  display: block;
+}
+.artisiansList_caption span {
+    display: inline-block;
+}
+.img_name{
+  width: 200px;
+  height: 400px;
+}
+.artisiansList {
+    margin-top: 40px;
+    padding-right: 10px;
+    padding-left: 100px;
+}
+.artisiansList_caption{
+  font-size: .7em;
+}
+.artisiansBtn {
+    margin-top: 50px;
+}
+.click{
+  width: 360px;
+}
+figure{
+  width: 100%;
+height: 100%;
+}
+.main_wrapper{
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+  .artisiansList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+float:right;
+}
+.sec {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.continner {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+    width: 1200px;
+}
+.sec_head{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.sec_head h2{
+  margin-top: 0;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+ul.storiesList{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.card_img{
+margin-right: 0;
+width: 346px;
+height: 220px;
+}
+.card_img img{
+ width: 346px;
+ height: 220px;
+}
+.storiesBtn .btn{
+  width: 27%;
+  margin: 0 auto;
+}
+footer{
+  padding: 30px;
+}
+footer .continner {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.footerInfo{
+  padding: 15px 60px;
+  background-color: #fff;
+  color: #010101;
+}
+.footerInfo_item{
+ padding: 10px 15px;
+    position: relative;
+    padding: 45px 0;
+    border-bottom: 1px solid #ddd;
+}
+.footerInfo_item:last-child{
+  border-bottom: none;
+}
+.footerInfo-contact {
+    min-height: 68px;
+    padding-right: 360px;
+}
+.footerInfo_ttl{
+  display: inline-block;
+  width: 240px;
+}
+.footerInfo_cnt{
+  display: flex;
+  align-items: center;
+}
+.footerInfo_cnt p{
+  display: inline-block;
+  font-family: "游明朝体","YuMincho";
+  font-size: 1rem;
+}
+.footerInfo_btn {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 360px;
+  }
+.footerInfo_cnt h2{
+  font-family: "游明朝体","YuMincho";
+  margin: 0;
+}
+.btn-fill{
+    padding: 15px 60px;
+    background-color: #010101;
+    color: #fff;
+    width: 200px;
+}
+.footerInfo_list{
+  display: inline-block;
+}
+.footerInfo_list li{
+  font-family: "游明朝体","YuMincho";
+  font-size: 1rem;
+}
+.copyright {
+    padding: 80px 0 60px;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+}
+.copyright small{
+  font-family: "游明朝体","YuMincho";
+  color: white;
+}
+.card_ttl{
+  font-family: "游明朝体","YuMincho";
+}
+@media screen and (max-width: 420px){
+.header_name h1{
+  font-size: 3rem;
+  line-height: 50px;
+}
+.header_top{
+  height: 400px;
+}
+.header_name p{
+  font-size: .7rem;
+}
+.header_name{
+  max-width: 100%;
+  padding-top: 120px;
+}
+section.sct{
+  max-width: 100%;
+  height: 500px;
+}
+.sct_top{
+  padding-top: 70px;
+}
+.sct_top h2{
+  font-size: 2rem;
+}
+.aboutTxt {
+  font-size: .7rem;
+}
+main {
+width: 100%;
+max-width: 100%;
+}
+.sct_second{
+  width: 100%;
+  max-width: 100%;
+}
+.content{
+  max-width: 100%;
+  width: 100%;
+  position: static;
+}
+.sct_head{
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+
+  margin: 0;
+  margin-bottom: 30px;
+}
+.sct_head h2{
+  margin-bottom: 50px;
+  font-size: 2rem;
+  width: 315px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+}
+.caseList{
+  display:inherit;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.caseList_img img{
+  height: 100%;
+  width: 295px;
+  max-width: 100%;
+}
+p.card_ttl {
+  width: 100%;
+  font-size: .9rem;
+  max-width: 100%;
+}
+.card{
+  max-width: 100%;
+  display: inline-block;
+}
+.caseBtn{
+  margin: 0;
+  width: 100%;
+  position:static;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+}
+.btn{
+  max-width: 100%;
+  padding: 10px 15px;
+  width: 184px;
+  margin: 0 auto;
+}
+.artisiansBtn{
+  margin-top: 30px;
+}
+figure{
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+}
+.card:nth-child(2n) {
+    padding-left: 30px;
+}
+.card:nth-child(odd) {
+    padding-right: 30px;
+}
+.artisiansList>li:nth-child(3) {
+margin: 0;
+}
+.contInner{
+  max-width: 100%;
+  padding: 0;
+}
+.contInner .img_name{
+  width: 90%;
+  height: 250px;
+}
+.artisians{
+  padding: 0;
+}
+.artisiansList{
+  padding: 0;
+}
+.artisians .sec_head {
+  margin: 0;
+  position: static;
+  max-width: 100%;
+  width: 100%;
+}
+.sec_head.btn{
+  width: 80%;
+  max-width: 100%;
+}
+.sec{
+  padding: 0;
+}
+.continner{
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+.caseList>li:first-child{
+  margin: 0;
+}
+.caseList>li{
+  width: auto;
+}
+.click{
+  width: 100%;
+}
+.continner .sec_head{
+  padding: 0px;
+  text-align: justify;
+}
+.continner .sec_head h2{
+  padding-top: 40px;
+}
+.sec_head h2{
+  max-width: 100%;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+.sec_lead{
+  font-size: .8rem;
+  width: 315px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.hidden-sm {
+    display: none;
+}
+.storiesBtn{
+  max-width: 100%;
+}
+.storiesBtn .btn{
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 184px;
+}
+.card_img img {
+  max-width: 100%;
+  width: 298px;
+}
+.card_img{
+  width: 100%;
+  max-width: 100%;
+}
+.artisiansList_caption{
+  font-size: .5rem;
+}
+ul.storiesList{
+  display: block;
+  max-width: 100%;
+  padding-right: 25px;
+  padding-left: 25px;
+
+}
+footer{
+  padding: 0;
+}
+footer .continner{
+  padding: 0;
+}
+.footerInfo{
+  padding: 10px 15px;
+}
+.footerInfo_ttl{
+  width: 100px;
+  max-width: 100%;
+}
+.footerInfo-contact {
+  padding: 0;
+}
+.footerInfo_btn{
+  position: static;
+  max-width: 100%;
+  margin-top: 15px;
+  padding-left: 60px;
+  width: 200px;
+}
+.footerInfo_cnt p{
+  font-size: .5rem;
+}
+.footerInfo_list li {
+  font-size: .5rem;
+}
+.btn-fill{
+margin: 0;
+font-size: 1rem;
+}
+.footerInfo_cnt h2{
+  font-size: .8rem;
+}
+.copyright  small{
+  font-size: .6rem;
+}
+
+
+
+}
